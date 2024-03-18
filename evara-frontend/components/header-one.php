@@ -755,18 +755,12 @@
                 <nav>
                   <ul>
                     <li>
-                      <a class="active" href="index.html"
-                        >Home <i class="fi-rs-angle-down"></i
+                      <a class="active" href="index.php"
+                        >Home</i
                       ></a>
-                      <ul class="sub-menu">
-                        <li><a href="index.html">Home 1</a></li>
-                        <li><a href="index-2.html">Home 2</a></li>
-                        <li><a href="index-3.html">Home 3</a></li>
-                        <li><a href="index-4.html">Home 4</a></li>
-                      </ul>
                     </li>
                     <li>
-                      <a href="page-about.html">About</a>
+                      <a href="page-about.php">About</a>
                     </li>
                     <li>
                       <a href="shop-grid-right.html"
