@@ -11,7 +11,7 @@
                   </li>
                   <li>
                     <i class="fi-rs-marker"></i
-                    ><a href="page-contact.html">Our location</a>
+                    ><a href="page-contact.php">Our location</a>
                   </li>
                 </ul>
               </div>
@@ -22,12 +22,12 @@
                   <ul>
                     <li>
                       Get great devices up to 50% off
-                      <a href="shop-grid-right.html">View details</a>
+                      <a href="shop-grid-right.php">View details</a>
                     </li>
                     <li>Supper Value Deals - Save more with coupons</li>
                     <li>
                       Trendy 25silver jewelry, save up 35% off today
-                      <a href="shop-grid-right.html">Shop now</a>
+                      <a href="shop-grid-right.php">Shop now</a>
                     </li>
                   </ul>
                 </div>
@@ -70,7 +70,7 @@
                   </li>
                   <li>
                     <i class="fi-rs-user"></i
-                    ><a href="page-login-register.html">Log In / Sign Up</a>
+                    ><a href="page-login-register.php">Log In / Sign Up</a>
                   </li>
                 </ul>
               </div>
@@ -82,7 +82,7 @@
         <div class="container">
           <div class="header-wrap">
             <div class="logo logo-width-1">
-              <a href="index.html"
+              <a href="index.php"
                 ><img src="assets/imgs/theme/logo.svg" alt="logo"
               /></a>
             </div>
@@ -108,7 +108,7 @@
               <div class="header-action-right">
                 <div class="header-action-2">
                   <div class="header-action-icon-2">
-                    <a href="shop-wishlist.html">
+                    <a href="shop-wishlist.php">
                       <img
                         class="svgInject"
                         alt="Evara"
@@ -118,7 +118,7 @@
                     </a>
                   </div>
                   <div class="header-action-icon-2">
-                    <a class="mini-cart-icon" href="shop-cart.html">
+                    <a class="mini-cart-icon" href="shop-cart.php">
                       <img
                         alt="Evara"
                         src="assets/imgs/theme/icons/icon-cart.svg"
@@ -129,7 +129,7 @@
                       <ul>
                         <li>
                           <div class="shopping-cart-img">
-                            <a href="shop-product-right.html"
+                            <a href="shop-product-right.php"
                               ><img
                                 alt="Evara"
                                 src="assets/imgs/shop/thumbnail-3.jpg"
@@ -137,7 +137,7 @@
                           </div>
                           <div class="shopping-cart-title">
                             <h4>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Daisy Casual Bag</a
                               >
                             </h4>
@@ -149,7 +149,7 @@
                         </li>
                         <li>
                           <div class="shopping-cart-img">
-                            <a href="shop-product-right.html"
+                            <a href="shop-product-right.php"
                               ><img
                                 alt="Evara"
                                 src="assets/imgs/shop/thumbnail-2.jpg"
@@ -157,7 +157,7 @@
                           </div>
                           <div class="shopping-cart-title">
                             <h4>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Corduroy Shirts</a
                               >
                             </h4>
@@ -173,8 +173,8 @@
                           <h4>Total <span>$4000.00</span></h4>
                         </div>
                         <div class="shopping-cart-button">
-                          <a href="shop-cart.html" class="outline">View cart</a>
-                          <a href="shop-checkout.html">Checkout</a>
+                          <a href="shop-cart.php" class="outline">View cart</a>
+                          <a href="shop-checkout.php">Checkout</a>
                         </div>
                       </div>
                     </div>
@@ -189,7 +189,7 @@
         <div class="container">
           <div class="header-wrap header-space-between position-relative">
             <div class="logo logo-width-1 d-block d-lg-none">
-              <a href="index.html"
+              <a href="index.php"
                 ><img src="assets/imgs/theme/logo.svg" alt="logo"
               /></a>
             </div>
@@ -203,7 +203,7 @@
                 >
                   <ul>
                     <li class="has-children">
-                      <a href="shop-grid-right.html"
+                      <a href="shop-grid-right.php"
                         ><i class="evara-font-dress"></i>Women's Clothing</a
                       >
                       <div class="dropdown-menu">
@@ -368,7 +368,7 @@
                       </div>
                     </li>
                     <li class="has-children">
-                      <a href="shop-grid-right.html"
+                      <a href="shop-grid-right.php"
                         ><i class="evara-font-tshirt"></i>Men's Clothing</a
                       >
                       <div class="dropdown-menu">
@@ -517,7 +517,7 @@
                       </div>
                     </li>
                     <li class="has-children">
-                      <a href="shop-grid-right.html"
+                      <a href="shop-grid-right.php"
                         ><i class="evara-font-smartphone"></i> Cellphones</a
                       >
                       <div class="dropdown-menu">
@@ -684,61 +684,61 @@
                       </div>
                     </li>
                     <li>
-                      <a href="shop-grid-right.html"
+                      <a href="shop-grid-right.php"
                         ><i class="evara-font-desktop"></i>Computer & Office</a
                       >
                     </li>
                     <li>
-                      <a href="shop-grid-right.html"
+                      <a href="shop-grid-right.php"
                         ><i class="evara-font-cpu"></i>Consumer Electronics</a
                       >
                     </li>
                     <li>
-                      <a href="shop-grid-right.html"
+                      <a href="shop-grid-right.php"
                         ><i class="evara-font-diamond"></i>Jewelry &
                         Accessories</a
                       >
                     </li>
                     <li>
-                      <a href="shop-grid-right.html"
+                      <a href="shop-grid-right.php"
                         ><i class="evara-font-home"></i>Home & Garden</a
                       >
                     </li>
                     <li>
-                      <a href="shop-grid-right.html"
+                      <a href="shop-grid-right.php"
                         ><i class="evara-font-high-heels"></i>Shoes</a
                       >
                     </li>
                     <li>
-                      <a href="shop-grid-right.html"
+                      <a href="shop-grid-right.php"
                         ><i class="evara-font-teddy-bear"></i>Mother & Kids</a
                       >
                     </li>
                     <li>
-                      <a href="shop-grid-right.html"
+                      <a href="shop-grid-right.php"
                         ><i class="evara-font-kite"></i>Outdoor fun</a
                       >
                     </li>
                     <li>
                       <ul class="more_slide_open" style="display: none">
                         <li>
-                          <a href="shop-grid-right.html"
+                          <a href="shop-grid-right.php"
                             ><i class="evara-font-desktop"></i>Beauty, Health</a
                           >
                         </li>
                         <li>
-                          <a href="shop-grid-right.html"
+                          <a href="shop-grid-right.php"
                             ><i class="evara-font-cpu"></i>Bags and Shoes</a
                           >
                         </li>
                         <li>
-                          <a href="shop-grid-right.html"
+                          <a href="shop-grid-right.php"
                             ><i class="evara-font-diamond"></i>Consumer
                             Electronics</a
                           >
                         </li>
                         <li>
-                          <a href="shop-grid-right.html"
+                          <a href="shop-grid-right.php"
                             ><i class="evara-font-home"></i>Automobiles &
                             Motorcycles</a
                           >
@@ -763,63 +763,8 @@
                       <a href="page-about.php">About</a>
                     </li>
                     <li>
-                      <a href="shop-grid-right.html"
-                        >Shop <i class="fi-rs-angle-down"></i
-                      ></a>
-                      <ul class="sub-menu">
-                        <li>
-                          <a href="shop-grid-right.html"
-                            >Shop Grid – Right Sidebar</a
-                          >
-                        </li>
-                        <li>
-                          <a href="shop-grid-left.html"
-                            >Shop Grid – Left Sidebar</a
-                          >
-                        </li>
-                        <li>
-                          <a href="shop-list-right.html"
-                            >Shop List – Right Sidebar</a
-                          >
-                        </li>
-                        <li>
-                          <a href="shop-list-left.html"
-                            >Shop List – Left Sidebar</a
-                          >
-                        </li>
-                        <li><a href="shop-fullwidth.html">Shop - Wide</a></li>
-                        <li>
-                          <a href="#"
-                            >Single Product <i class="fi-rs-angle-right"></i
-                          ></a>
-                          <ul class="level-menu">
-                            <li>
-                              <a href="shop-product-right.html"
-                                >Product – Right Sidebar</a
-                              >
-                            </li>
-                            <li>
-                              <a href="shop-product-left.html"
-                                >Product – Left Sidebar</a
-                              >
-                            </li>
-                            <li>
-                              <a href="shop-product-full.html"
-                                >Product – No sidebar</a
-                              >
-                            </li>
-                          </ul>
-                        </li>
-                        <li><a href="shop-filter.html">Shop – Filter</a></li>
-                        <li>
-                          <a href="shop-wishlist.html">Shop – Wishlist</a>
-                        </li>
-                        <li><a href="shop-cart.html">Shop – Cart</a></li>
-                        <li>
-                          <a href="shop-checkout.html">Shop – Checkout</a>
-                        </li>
-                        <li><a href="shop-compare.html">Shop – Compare</a></li>
-                      </ul>
+                      <a href="shop-grid-left.php"
+                        >Shop</a>
                     </li>
                     <li class="position-static">
                       <a href="#">Mega menu <i class="fi-rs-angle-down"></i></a>
@@ -828,28 +773,28 @@
                           <a class="menu-title" href="#">Women's Fashion</a>
                           <ul>
                             <li>
-                              <a href="shop-product-right.html">Dresses</a>
+                              <a href="shop-product-right.php">Dresses</a>
                             </li>
                             <li>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Blouses & Shirts</a
                               >
                             </li>
                             <li>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Hoodies & Sweatshirts</a
                               >
                             </li>
                             <li>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Wedding Dresses</a
                               >
                             </li>
                             <li>
-                              <a href="shop-product-right.html">Prom Dresses</a>
+                              <a href="shop-product-right.php">Prom Dresses</a>
                             </li>
                             <li>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Cosplay Costumes</a
                               >
                             </li>
@@ -859,26 +804,26 @@
                           <a class="menu-title" href="#">Men's Fashion</a>
                           <ul>
                             <li>
-                              <a href="shop-product-right.html">Jackets</a>
+                              <a href="shop-product-right.php">Jackets</a>
                             </li>
                             <li>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Casual Faux Leather</a
                               >
                             </li>
                             <li>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Genuine Leather</a
                               >
                             </li>
                             <li>
-                              <a href="shop-product-right.html">Casual Pants</a>
+                              <a href="shop-product-right.php">Casual Pants</a>
                             </li>
                             <li>
-                              <a href="shop-product-right.html">Sweatpants</a>
+                              <a href="shop-product-right.php">Sweatpants</a>
                             </li>
                             <li>
-                              <a href="shop-product-right.html">Harem Pants</a>
+                              <a href="shop-product-right.php">Harem Pants</a>
                             </li>
                           </ul>
                         </li>
@@ -886,25 +831,25 @@
                           <a class="menu-title" href="#">Technology</a>
                           <ul>
                             <li>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Gaming Laptops</a
                               >
                             </li>
                             <li>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Ultraslim Laptops</a
                               >
                             </li>
                             <li>
-                              <a href="shop-product-right.html">Tablets</a>
+                              <a href="shop-product-right.php">Tablets</a>
                             </li>
                             <li>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Laptop Accessories</a
                               >
                             </li>
                             <li>
-                              <a href="shop-product-right.html"
+                              <a href="shop-product-right.php"
                                 >Tablet Accessories</a
                               >
                             </li>
@@ -912,7 +857,7 @@
                         </li>
                         <li class="sub-mega-menu sub-mega-menu-width-34">
                           <div class="menu-banner-wrap">
-                            <a href="shop-product-right.html"
+                            <a href="shop-product-right.php"
                               ><img
                                 src="assets/imgs/banner/menu-banner.jpg"
                                 alt="Evara"
@@ -929,7 +874,7 @@
                                 >
                               </div>
                               <div class="menu-banner-btn">
-                                <a href="shop-product-right.html">Shop now</a>
+                                <a href="shop-product-right.php">Shop now</a>
                               </div>
                             </div>
                             <div class="menu-banner-discount">
@@ -943,67 +888,25 @@
                       </ul>
                     </li>
                     <li>
-                      <a href="blog-category-grid.html"
-                        >Blog <i class="fi-rs-angle-down"></i
+                      <a href="blog-category-grid.php"
+                        >Blog </i
                       ></a>
+                    </li>
+                    <li>
+                      <a href="#">More <i class="fi-rs-angle-down"></i></a>
                       <ul class="sub-menu">
+                        <li><a href="page-about.php">About Us</a></li>
+                        <li><a href="page-account.php">My Account</a></li>
                         <li>
-                          <a href="blog-category-grid.html"
-                            >Blog Category Grid</a
-                          >
+                          <a href="page-login-register.php">login/register</a>
                         </li>
                         <li>
-                          <a href="blog-category-list.html"
-                            >Blog Category List</a
-                          >
-                        </li>
-                        <li>
-                          <a href="blog-category-big.html">Blog Category Big</a>
-                        </li>
-                        <li>
-                          <a href="blog-category-fullwidth.html"
-                            >Blog Category Wide</a
-                          >
-                        </li>
-                        <li>
-                          <a href="#"
-                            >Single Post <i class="fi-rs-angle-right"></i
-                          ></a>
-                          <ul class="level-menu level-menu-modify">
-                            <li>
-                              <a href="blog-post-left.html">Left Sidebar</a>
-                            </li>
-                            <li>
-                              <a href="blog-post-right.html">Right Sidebar</a>
-                            </li>
-                            <li>
-                              <a href="blog-post-fullwidth.html">No Sidebar</a>
-                            </li>
-                          </ul>
+                          <a href="page-purchase-guide.php">Purchase Guide</a>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="#">Pages <i class="fi-rs-angle-down"></i></a>
-                      <ul class="sub-menu">
-                        <li><a href="page-about.html">About Us</a></li>
-                        <li><a href="page-contact.html">Contact</a></li>
-                        <li><a href="page-account.html">My Account</a></li>
-                        <li>
-                          <a href="page-login-register.html">login/register</a>
-                        </li>
-                        <li>
-                          <a href="page-purchase-guide.html">Purchase Guide</a>
-                        </li>
-                        <li>
-                          <a href="page-privacy-policy.html">Privacy Policy</a>
-                        </li>
-                        <li><a href="page-terms.html">Terms of Service</a></li>
-                        <li><a href="page-404.html">404 Page</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                      <a href="page-contact.html">Contact</a>
+                      <a href="page-contact.php">Contact Us</a>
                     </li>
                   </ul>
                 </nav>
@@ -1021,7 +924,7 @@
             <div class="header-action-right d-block d-lg-none">
               <div class="header-action-2">
                 <div class="header-action-icon-2">
-                  <a href="shop-wishlist.html">
+                  <a href="shop-wishlist.php">
                     <img
                       alt="Evara"
                       src="assets/imgs/theme/icons/icon-heart.svg"
@@ -1030,7 +933,7 @@
                   </a>
                 </div>
                 <div class="header-action-icon-2">
-                  <a class="mini-cart-icon" href="shop-cart.html">
+                  <a class="mini-cart-icon" href="shop-cart.php">
                     <img
                       alt="Evara"
                       src="assets/imgs/theme/icons/icon-cart.svg"
@@ -1041,7 +944,7 @@
                     <ul>
                       <li>
                         <div class="shopping-cart-img">
-                          <a href="shop-product-right.html"
+                          <a href="shop-product-right.php"
                             ><img
                               alt="Evara"
                               src="assets/imgs/shop/thumbnail-3.jpg"
@@ -1049,7 +952,7 @@
                         </div>
                         <div class="shopping-cart-title">
                           <h4>
-                            <a href="shop-product-right.html"
+                            <a href="shop-product-right.php"
                               >Plain Striola Shirts</a
                             >
                           </h4>
@@ -1061,7 +964,7 @@
                       </li>
                       <li>
                         <div class="shopping-cart-img">
-                          <a href="shop-product-right.html"
+                          <a href="shop-product-right.php"
                             ><img
                               alt="Evara"
                               src="assets/imgs/shop/thumbnail-4.jpg"
@@ -1069,7 +972,7 @@
                         </div>
                         <div class="shopping-cart-title">
                           <h4>
-                            <a href="shop-product-right.html"
+                            <a href="shop-product-right.php"
                               >Macbook Pro 2022</a
                             >
                           </h4>
@@ -1085,8 +988,8 @@
                         <h4>Total <span>$383.00</span></h4>
                       </div>
                       <div class="shopping-cart-button">
-                        <a href="shop-cart.html">View cart</a>
-                        <a href="shop-checkout.html">Checkout</a>
+                        <a href="shop-cart.php">View cart</a>
+                        <a href="shop-checkout.php">Checkout</a>
                       </div>
                     </div>
                   </div>

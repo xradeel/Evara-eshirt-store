@@ -37,6 +37,7 @@
           </div>
         </div>
       </section>
+      <!-- main footer start -->
       <section class="section-padding footer-mid">
         <div class="container pt-15 pb-20">
           <div class="row">
@@ -93,7 +94,7 @@
             <div class="col-lg-2 col-md-3">
               <h5 class="widget-title wow fadeIn animated">About</h5>
               <ul class="footer-list wow fadeIn animated mb-sm-5 mb-md-0">
-                <li><a href="#">About Us</a></li>
+                <li><a href="page-about.php">About Us</a></li>
                 <li><a href="#">Delivery Information</a></li>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms &amp; Conditions</a></li>

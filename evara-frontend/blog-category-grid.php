@@ -165,7 +165,7 @@
                                         <li><a href="#">Single Post <i class="fi-rs-angle-right"></i></a>
                                             <ul class="level-menu level-menu-modify">
                                                 <li><a href="blog-post-left.html">Left Sidebar</a></li>
-                                                <li><a href="blog-post-right.html">Right Sidebar</a></li>
+                                                <li><a href="blog-post-right.php">Right Sidebar</a></li>
                                                 <li><a href="blog-post-fullwidth.html">No Sidebar</a></li>
                                             </ul>
                                         </li>
@@ -379,7 +379,7 @@
                                     <li class="menu-item-has-children"><span class="menu-expand"></span><a href="#">Single Product Layout</a>
                                         <ul class="dropdown">
                                             <li><a href="blog-post-left.html">Left Sidebar</a></li>
-                                            <li><a href="blog-post-right.html">Right Sidebar</a></li>
+                                            <li><a href="blog-post-right.php">Right Sidebar</a></li>
                                             <li><a href="blog-post-fullwidth.html">No Sidebar</a></li>
                                         </ul>
                                     </li>
@@ -461,7 +461,7 @@
                                         <div class="img-hover-slide position-relative overflow-hidden">
                                             <span class="top-right-icon bg-dark"><i class="fi-rs-bookmark"></i></span>
                                             <div class="post-thumb img-hover-scale">
-                                                <a href="blog-post-right.html">
+                                                <a href="blog-post-right.php">
                                                     <img src="assets/imgs/blog/blog-6.jpg" alt="">
                                                 </a>
                                             </div>
@@ -476,7 +476,7 @@
                                                 </div>
                                             </div>
                                             <h2 class="post-title mb-20">
-                                                <a href="blog-post-right.html">Barcelona: marathan; south korean pulls away for a grueling surprise</a></h2>
+                                                <a href="blog-post-right.php">Barcelona: marathan; south korean pulls away for a grueling surprise</a></h2>
                                             <p class="post-exerpt font-medium text-muted mb-30">These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi-million dollar home currently.</p>
                                             <div class="mb-20 entry-meta meta-2">
                                                 <div class="font-xs ">
@@ -485,7 +485,7 @@
                                                     <span class="time-reading">8 mins read</span>
                                                     <p class="font-xs mt-5">Updated 18/08/2022 07:12 EST</p>
                                                 </div>
-                                                <a href="blog-post-right.html" class="btn btn-sm">Read more<i class="fi-rs-arrow-right ml-10"></i></a>
+                                                <a href="blog-post-right.php" class="btn btn-sm">Read more<i class="fi-rs-arrow-right ml-10"></i></a>
                                             </div>
                                         </div>
                                     </article>
@@ -493,7 +493,7 @@
                                 <div class="col-lg-6">
                                     <article class="wow fadeIn animated hover-up mb-30">
                                         <div class="post-thumb img-hover-scale">
-                                            <a href="blog-post-right.html">
+                                            <a href="blog-post-right.php">
                                                 <img src="assets/imgs/blog/blog-2.jpg" alt="">
                                             </a>
                                             <div class="entry-meta">
@@ -502,14 +502,14 @@
                                         </div>
                                         <div class="entry-content-2">
                                             <h3 class="post-title mb-15">
-                                                <a href="blog-post-right.html">The litigants on the screen are not actors</a></h3>
+                                                <a href="blog-post-right.php">The litigants on the screen are not actors</a></h3>
                                             <p class="post-exerpt mb-30">These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi.</p>
                                             <div class="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
                                                 <div>
                                                     <span class="post-on"> <i class="fi-rs-clock"></i> 25 April 2022</span>
                                                     <span class="hit-count has-dot">126k Views</span>
                                                 </div>
-                                                <a href="blog-post-right.html" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
+                                                <a href="blog-post-right.php" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </article>
@@ -517,7 +517,7 @@
                                 <div class="col-lg-6">
                                     <article class="wow fadeIn animated hover-up mb-30">
                                         <div class="post-thumb img-hover-scale">
-                                            <a href="blog-post-right.html">
+                                            <a href="blog-post-right.php">
                                                 <img src="assets/imgs/blog/blog-8.jpg" alt="">
                                             </a>
                                             <div class="entry-meta">
@@ -526,14 +526,14 @@
                                         </div>
                                         <div class="entry-content-2">
                                             <h3 class="post-title mb-15">
-                                                <a href="blog-post-right.html">Essential Qualities of Highly Successful Music</a></h3>
+                                                <a href="blog-post-right.php">Essential Qualities of Highly Successful Music</a></h3>
                                             <p class="post-exerpt mb-30">Graduating from a top accelerator or incubator can be as career-defining for a startup founder as an elite university diploma. The intensive programmes, which</p>
                                             <div class="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
                                                 <div>
                                                     <span class="post-on"> <i class="fi-rs-clock"></i> 25 April 2022</span>
                                                     <span class="hit-count has-dot">126k Views</span>
                                                 </div>
-                                                <a href="blog-post-right.html" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
+                                                <a href="blog-post-right.php" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </article>
@@ -541,7 +541,7 @@
                                 <div class="col-lg-6">
                                     <article class="wow fadeIn animated hover-up mb-30">
                                         <div class="post-thumb img-hover-scale">
-                                            <a href="blog-post-right.html">
+                                            <a href="blog-post-right.php">
                                                 <img src="assets/imgs/blog/blog-3.jpg" alt="">
                                             </a>
                                             <div class="entry-meta">
@@ -550,14 +550,14 @@
                                         </div>
                                         <div class="entry-content-2">
                                             <h3 class="post-title mb-15">
-                                                <a href="blog-post-right.html">9 Things I Love About Shaving My Head</a></h3>
+                                                <a href="blog-post-right.php">9 Things I Love About Shaving My Head</a></h3>
                                             <p class="post-exerpt mb-30">At the Emmys, broadcast scripted shows created by people of color gained ground relative to those pitched by White show creators, while broadcast scripted shows.</p>
                                             <div class="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
                                                 <div>
                                                     <span class="post-on"> <i class="fi-rs-clock"></i> 25 April 2022</span>
                                                     <span class="hit-count has-dot">126k Views</span>
                                                 </div>
-                                                <a href="blog-post-right.html" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
+                                                <a href="blog-post-right.php" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </article>
@@ -565,7 +565,7 @@
                                 <div class="col-lg-6">
                                     <article class="wow fadeIn animated hover-up mb-30">
                                         <div class="post-thumb img-hover-scale">
-                                            <a href="blog-post-right.html">
+                                            <a href="blog-post-right.php">
                                                 <img src="assets/imgs/blog/blog-4.jpg" alt="">
                                             </a>
                                             <div class="entry-meta">
@@ -574,14 +574,14 @@
                                         </div>
                                         <div class="entry-content-2">
                                             <h3 class="post-title mb-15">
-                                                <a href="blog-post-right.html">Why Teamwork Really Makes The Dream Work</a></h3>
+                                                <a href="blog-post-right.php">Why Teamwork Really Makes The Dream Work</a></h3>
                                             <p class="post-exerpt mb-30">We live in a world where disruption and dynamism reign supreme and businesses must be ready to adapt to the many unpredictable changes that come with this.</p>
                                             <div class="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
                                                 <div>
                                                     <span class="post-on"> <i class="fi-rs-clock"></i> 25 April 2022</span>
                                                     <span class="hit-count has-dot">126k Views</span>
                                                 </div>
-                                                <a href="blog-post-right.html" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
+                                                <a href="blog-post-right.php" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </article>
@@ -589,7 +589,7 @@
                                 <div class="col-lg-6">
                                     <article class="wow fadeIn animated hover-up mb-30">
                                         <div class="post-thumb img-hover-scale">
-                                            <a href="blog-post-right.html">
+                                            <a href="blog-post-right.php">
                                                 <img src="assets/imgs/blog/blog-5.jpg" alt="">
                                             </a>
                                             <div class="entry-meta">
@@ -598,14 +598,14 @@
                                         </div>
                                         <div class="entry-content-2">
                                             <h3 class="post-title mb-15">
-                                                <a href="blog-post-right.html">The World Caters to Average People</a></h3>
+                                                <a href="blog-post-right.php">The World Caters to Average People</a></h3>
                                             <p class="post-exerpt mb-30">These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell oney.</p>
                                             <div class="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
                                                 <div>
                                                     <span class="post-on"> <i class="fi-rs-clock"></i> 25 April 2022</span>
                                                     <span class="hit-count has-dot">126k Views</span>
                                                 </div>
-                                                <a href="blog-post-right.html" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
+                                                <a href="blog-post-right.php" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </article>
@@ -613,7 +613,7 @@
                                 <div class="col-lg-6">
                                     <article class="wow fadeIn animated hover-up mb-30">
                                         <div class="post-thumb img-hover-scale">
-                                            <a href="blog-post-right.html">
+                                            <a href="blog-post-right.php">
                                                 <img src="assets/imgs/blog/blog-9.jpg" alt="">
                                             </a>
                                             <div class="entry-meta">
@@ -622,14 +622,14 @@
                                         </div>
                                         <div class="entry-content-2">
                                             <h3 class="post-title mb-15">
-                                                <a href="blog-post-right.html">Essential Qualities of Highly Successful Music</a></h3>
+                                                <a href="blog-post-right.php">Essential Qualities of Highly Successful Music</a></h3>
                                             <p class="post-exerpt mb-30">Graduating from a top accelerator or incubator can be as career-defining for a startup founder as an elite university diploma. The intensive programmes, which...</p>
                                             <div class="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
                                                 <div>
                                                     <span class="post-on"> <i class="fi-rs-clock"></i> 25 April 2022</span>
                                                     <span class="hit-count has-dot">126k Views</span>
                                                 </div>
-                                                <a href="blog-post-right.html" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
+                                                <a href="blog-post-right.php" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </article>
