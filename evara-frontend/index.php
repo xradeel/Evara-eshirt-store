@@ -18,7 +18,7 @@
       href="assets/imgs/theme/favicon.svg"
     />
     <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/maind134.css?v=3.4" />
+    <link rel="stylesheet" href="assets/css/maind134.css" />
   </head>
 
   <body>
