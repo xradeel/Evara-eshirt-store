@@ -3,6 +3,7 @@
 
 
 <!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/page-404.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:21:38 GMT -->
+
 <head>
     <meta charset="utf-8">
     <title>Evara - eCommerce HTML Template</title>
@@ -27,7 +28,7 @@
                     <p class="mb-50"><img src="assets/imgs/theme/404.png" alt="" class="hover-up"></p>
                     <h2 class="mb-30">Page Not Found</h2>
                     <p class="font-lg text-grey-700 mb-30">
-                        The link you clicked may be broken or the page may have been removed.<br> visit the <a href="index.html"> <span> Homepage</span></a> or <a href="page-contact.html"><span>Contact us</span></a> about the problem
+                        The link you clicked may be broken or the page may have been removed.<br> visit the <a href="index.php"> <span> Homepage</span></a> or <a href="page-contact.php"><span>Contact us</span></a> about the problem
                     </p>
                     <form class="contact-form-style text-center" id="contact-form" action="#" method="post">
                         <div class="row">
@@ -37,27 +38,16 @@
                                 </div>
                             </div>
                         </div>
-                        <a class="btn btn-default submit-auto-width font-xs hover-up" href="index.html">Back To Home Page</a>
+                        <a class="btn btn-default submit-auto-width font-xs hover-up" href="index.php">Back To Home Page</a>
                     </form>
                 </div>
             </div>
         </div>
     </main>
     <!-- Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="text-center">
-                    <h5 class="mb-5">Now Loading</h5>
-                    <div class="loader">
-                        <div class="bar bar1"></div>
-                        <div class="bar bar2"></div>
-                        <div class="bar bar3"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php
+    require("components/pre-loader.php");
+    ?>
     <!-- Vendor JS-->
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
@@ -84,4 +74,5 @@
 
 
 <!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/page-404.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:21:41 GMT -->
+
 </html>
