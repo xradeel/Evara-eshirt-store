@@ -3,6 +3,7 @@
 
 
 <!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/page-login-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:17:55 GMT -->
+
 <head>
     <meta charset="utf-8">
     <title>Evara - eCommerce HTML Template</title>
@@ -161,7 +162,7 @@
                 </div>
                 <div class="mobile-header-info-wrap mobile-header-border">
                     <div class="single-mobile-header-info mt-30">
-                        <a  href="page-contact.html"> Our location </a>
+                        <a href="page-contact.html"> Our location </a>
                     </div>
                     <div class="single-mobile-header-info">
                         <a href="page-login-register.html">Log In / Sign Up </a>
@@ -280,32 +281,13 @@
     </main>
     <?php require("components/footer-one.php") ?>
     <!-- Preloader Start -->
-    
+
     <?php require("components/pre-loader.php") ?>
     <!-- Vendor JS-->
-    <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-migrate-3.3.0.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/plugins/slick.js"></script>
-    <script src="assets/js/plugins/jquery.syotimer.min.js"></script>
-    <script src="assets/js/plugins/wow.js"></script>
-    <script src="assets/js/plugins/jquery-ui.js"></script>
-    <script src="assets/js/plugins/perfect-scrollbar.js"></script>
-    <script src="assets/js/plugins/magnific-popup.js"></script>
-    <script src="assets/js/plugins/select2.min.js"></script>
-    <script src="assets/js/plugins/waypoints.js"></script>
-    <script src="assets/js/plugins/counterup.js"></script>
-    <script src="assets/js/plugins/jquery.countdown.min.js"></script>
-    <script src="assets/js/plugins/images-loaded.js"></script>
-    <script src="assets/js/plugins/isotope.js"></script>
-    <script src="assets/js/plugins/scrollup.js"></script>
-    <script src="assets/js/plugins/jquery.vticker-min.js"></script>
-    <script src="assets/js/plugins/jquery.theia.sticky.js"></script>
-    <!-- Template  JS -->
-    <script src="assets/js/maind134.js?v=3.4"></script>
+    <?php require("components/js-links.php") ?>
 </body>
 
 
 <!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/page-login-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:17:55 GMT -->
+
 </html>
