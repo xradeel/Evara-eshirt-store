@@ -20,51 +20,43 @@
                 </a>
                 <div class="submenu">
                     <a href="page-products-list.php">Product List</a>
-                    <a href="page-products-grid.php">Product grid</a>
-                    <a href="page-products-grid-2.php">Product grid 2</a>
+                    <a href="page-products-grid-2.php">Product grid</a>
                     <a href="page-categories.php">Categories</a>
                 </div>
             </li>
             <li class="menu-item has-submenu">
-                <a class="menu-link" href="page-orders-1.php"> <i class="icon material-icons md-shopping_cart"></i>
+                <a class="menu-link" href="page-orders-2.php"> <i class="icon material-icons md-shopping_cart"></i>
                     <span class="text">Orders</span>
                 </a>
                 <div class="submenu">
-                    <a href="page-orders-1.php">Order list 1</a>
-                    <a href="page-orders-2.php">Order list 2</a>
+                    <a href="page-orders-2.php">Order list</a>
                     <a href="page-orders-detail.php">Order detail</a>
                     <a href="page-orders-tracking.php">Order tracking</a>
                     <a href="page-invoice.php">Invoice</a>
                 </div>
             </li>
-            <li class="menu-item has-submenu">
+            <!-- seller section, I will review this section letter because I think it is going to be hard for me
+            if i add this section -->
+            <!-- <li class="menu-item has-submenu">
                 <a class="menu-link" href="page-sellers-cards.php"> <i class="icon material-icons md-store"></i>
                     <span class="text">Sellers</span>
                 </a>
                 <div class="submenu">
-                    <a href="page-sellers-cards.php">Sellers cards</a>
-                    <a href="page-sellers-list.php">Sellers list</a>
+                    <a href="page-sellers-list.php">Sellers</a>
                     <a href="page-seller-detail.php">Seller profile</a>
                 </div>
-            </li>
-            <li class="menu-item has-submenu">
+            </li> -->
+            <li class="menu-item">
                 <a class="menu-link" href="page-form-product-1.php"> <i class="icon material-icons md-add_box"></i>
                     <span class="text">Add product</span>
                 </a>
-                <div class="submenu">
-                    <a href="page-form-product-1.php">Add product 1</a>
-                    <a href="page-form-product-2.php">Add product 2</a>
-                    <a href="page-form-product-3.php">Add product 3</a>
-                    <a href="page-form-product-4.php">Add product 4</a>
-                </div>
             </li>
             <li class="menu-item has-submenu">
-                <a class="menu-link" href="page-transactions-1.php"> <i class="icon material-icons md-monetization_on"></i>
+                <a class="menu-link" href="page-transactions-2.php"> <i class="icon material-icons md-monetization_on"></i>
                     <span class="text">Transactions</span>
                 </a>
                 <div class="submenu">
-                    <a href="page-transactions-1.php">Transaction 1</a>
-                    <a href="page-transactions-2.php">Transaction 2</a>
+                    <a href="page-transactions-2.php">Transactions</a>
                     <a href="page-transactions-details.php">Transaction Details</a>
                 </div>
             </li>
