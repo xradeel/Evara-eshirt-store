@@ -95,7 +95,7 @@
                         <div class="contact-from-area padding-20-row-col wow FadeInUp">
                             <h3 class="mb-10 text-center">Drop Us a Line</h3>
                             <p class="text-muted mb-30 text-center font-sm">Lorem ipsum dolor sit amet consectetur.</p>
-                            <form class="contact-form-style text-center" id="contact-form" action="#" method="post">
+                            <form class="contact-form-style text-center" id="contact-form" action="contact-script.php" method="post">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
                                         <div class="input-style mb-20">
@@ -109,7 +109,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6">
                                         <div class="input-style mb-20">
-                                            <input name="telephone" placeholder="Your Phone" type="tel">
+                                            <input name="contact" placeholder="Your Phone" type="tel">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
@@ -121,7 +121,7 @@
                                         <div class="textarea-style mb-30">
                                             <textarea name="message" placeholder="Message"></textarea>
                                         </div>
-                                        <button class="submit submit-auto-width" type="submit">Send message</button>
+                                        <button class="submit submit-auto-width" name="submit" type="submit">Send message</button>
                                     </div>
                                 </div>
                             </form>

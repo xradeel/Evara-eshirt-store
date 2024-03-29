@@ -1,0 +1,25 @@
+<?php
+define("SiteTitle", "Evara");
+define("Author", "Muhammad Adeel");
+define("SiteDescription", "HackersThirdEye offers comprehensive website security solutions including penetration testing, monitoring, protection, performance optimization, and response services. Protect your website from cyber threats and ensure peace of mind with our expert security analysts.");
+define("Keywords", "HackersThirdEye, website security, penetration testing, monitoring, protection, performance optimization, response services, cybersecurity, cyber threats, security analysts");
+define("Website", "https://adeelsarwar.com/");
+define("SiteAddress", "https://adeelsarwar.com/");
+define("Facebook", "https://www.facebook.com/websec1337");
+define("twitter", "https://twitter.com/xr-adeel");
+define("insta", "https://www.instagram.com/xr-adeel/");
+define("linkedin", "https://www.linkedin.com/company/xr-adeel");
+define("google", "#");
+define("whataspp", "#");
+define("Email", "#");
+define("Email2", "#");
+define("Email3", "#");
+define("Phone", "#");
+define("Phone2", "#");
+define("Address", "#");
+define("Address2", "#");
+define("Country", "Pakistan");
+define("LiveOnServer", "28 March, 2024");
+define("Developer", "Muhammad Adeel");
+define("DevelopedBy", "Muhammad Adreel");
+define("DeveloperEmail", "muhammadadeel.sarwar@studentambassadors.com");
