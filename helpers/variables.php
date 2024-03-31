@@ -14,7 +14,7 @@ define("whataspp", "#");
 define("Email", "#");
 define("Email2", "#");
 define("Email3", "#");
-define("Phone", "#");
+define("Phone", "+92 314 7128128");
 define("Phone2", "#");
 define("Address", "#");
 define("Address2", "#");

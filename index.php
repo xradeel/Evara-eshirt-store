@@ -1153,7 +1153,7 @@ include("helpers/variables.php");
         <div class="carausel-6-columns-cover position-relative">
           <div class="slider-arrow slider-arrow-2 carausel-6-columns-arrow" id="carausel-6-columns-arrows"></div>
           <div class="carausel-6-columns" id="carausel-6-columns">
-            <div class="card-1">
+            <!-- <div class="card-1">
               <figure class="img-hover-scale overflow-hidden">
                 <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-1.jpg" alt="" /></a>
               </figure>
@@ -1195,13 +1195,25 @@ include("helpers/variables.php");
                 <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-7.jpg" alt="" /></a>
               </figure>
               <h5><a href="shop-grid-left.php">Jumpsuits</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-8.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Hats</a></h5>
-            </div>
+            </div> -->
+            <?php
+            $Query = "SELECT * FROM popularcategories WHERE status = 1";
+            $Result = mysqli_query($conn, $Query);
+            if ($Result->num_rows > 0) {
+              while ($row = mysqli_fetch_array($Result)) {
+            ?>
+                <div class="card-1">
+                  <figure class="img-hover-scale overflow-hidden">
+                    <a href="<?php echo $row['url']; ?>"><img src="<?php echo $row['image']; ?>" alt="" /></a>
+                  </figure>
+                  <h5><a href="<?php echo $row['url']; ?>"><?php echo $row['title']; ?></a></h5>
+                </div>
+            <?php
+              }
+            } else {
+              echo "No Result Found";
+            }
+            ?>
           </div>
         </div>
       </div>
