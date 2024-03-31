@@ -1,5 +1,5 @@
 <?php
-define("SiteTitle", "Evara");
+define("SiteTitle", "Evara - eCommerce HTML Template");
 define("Author", "Muhammad Adeel");
 define("SiteDescription", "HackersThirdEye offers comprehensive website security solutions including penetration testing, monitoring, protection, performance optimization, and response services. Protect your website from cyber threats and ensure peace of mind with our expert security analysts.");
 define("Keywords", "HackersThirdEye, website security, penetration testing, monitoring, protection, performance optimization, response services, cybersecurity, cyber threats, security analysts");

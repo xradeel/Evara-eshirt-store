@@ -1,10 +1,15 @@
-﻿<!DOCTYPE html>
+﻿<?php
+include("helpers/config.php");
+include("helpers/variables.php");
+?>
+
+<!DOCTYPE html>
 <html class="no-js" lang="en">
 <!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:17:55 GMT -->
 
 <head>
   <meta charset="utf-8" />
-  <title>Evara - eCommerce HTML Template</title>
+  <title>Home | <?php echo (constant('SiteTitle')); ?></title>
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,9 +28,9 @@
   <?php
   // include("components/poster-modal.php") 
   ?>
-  <!-- Quick view -->
   <!-- link headers -->
   <?php
+  // Quick view header
   require("components/quick-view.php");
   require("components/header-one.php");
   require("components/header-mobile.php");
@@ -111,42 +116,24 @@
     <section class="featured section-padding position-relative">
       <div class="container">
         <div class="row">
-          <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
-            <div class="banner-features wow fadeIn animated hover-up">
-              <img src="assets/imgs/theme/icons/feature-1.png" alt="" />
-              <h4 class="bg-1">Free Shipping</h4>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
-            <div class="banner-features wow fadeIn animated hover-up">
-              <img src="assets/imgs/theme/icons/feature-2.png" alt="" />
-              <h4 class="bg-3">Online Order</h4>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
-            <div class="banner-features wow fadeIn animated hover-up">
-              <img src="assets/imgs/theme/icons/feature-3.png" alt="" />
-              <h4 class="bg-2">Save Money</h4>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
-            <div class="banner-features wow fadeIn animated hover-up">
-              <img src="assets/imgs/theme/icons/feature-4.png" alt="" />
-              <h4 class="bg-4">Promotions</h4>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
-            <div class="banner-features wow fadeIn animated hover-up">
-              <img src="assets/imgs/theme/icons/feature-5.png" alt="" />
-              <h4 class="bg-5">Happy Sell</h4>
-            </div>
-          </div>
-          <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
-            <div class="banner-features wow fadeIn animated hover-up">
-              <img src="assets/imgs/theme/icons/feature-6.png" alt="" />
-              <h4 class="bg-6">24/7 Support</h4>
-            </div>
-          </div>
+          <?php
+          $Query = "SELECT * FROM bannerfeatures WHERE status = 1";
+          $Result = mysqli_query($conn, $Query);
+          if ($Result->num_rows > 0) {
+            while ($row = mysqli_fetch_array($Result)) {
+          ?>
+              <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
+                <div class="banner-features wow fadeIn animated hover-up">
+                  <img src="<?php echo $row['iconpath']; ?>" alt="" />
+                  <h4 class="bg-1"><?php echo $row['title']; ?></h4>
+                </div>
+              </div>
+          <?php
+            }
+          } else {
+            echo "No Result Found";
+          }
+          ?>
         </div>
       </div>
     </section>
