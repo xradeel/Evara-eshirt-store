@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿<?php
+include("helpers/config.php");
+include("helpers/variables.php");
+?>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
 
 
@@ -30,7 +34,6 @@
             <div class="container">
                 <div class="breadcrumb">
                     <a href="index.php" rel="nofollow">Home</a>
-                    <span></span> Pages
                     <span></span> About us
                 </div>
             </div>
@@ -61,67 +64,40 @@
                         <p class="text-grey-3 wow fadeIn animated">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione optio perferendis sequi mollitia quis autem ea cupiditate possimus!</p>
                     </div>
                     <div class="col-md-6 text-md-end mt-30">
-                        <a class="btn btn-outline btn-lg btn-brand-outline font-weight-bold text-brand text-hover-white border-radius-5 btn-shadow-brand hover-up">All Members</a>
+                        <a class="btn btn-outline btn-lg btn-brand-outline font-weight-bold text-brand text-hover-white border-radius-5 btn-shadow-brand hover-up" href="page-members.php">All Members</a>
                     </div>
                 </div>
                 <div class="position-relative">
                     <div class="row wow fadeIn animated">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="blog-card border-radius-10 overflow-hidden text-center">
-                                <img src="assets/imgs/page/avatar-1.jpg" alt="" class="border-radius-10 mb-30 hover-up">
-                                <h4 class="fw-500 mb-0">Patric Adams</h4>
-                                <p class="fw-400 text-brand mb-10">CEO & Co-Founder</p>
-                                <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0 animated">
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-facebook.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest.svg" alt=""></a>
+                        <?php
+                        $Query = "SELECT * FROM teammembers WHERE status = 1";
+                        $Result = mysqli_query($conn, $Query);
+                        if ($Result->num_rows > 0) {
+                            $count = 0;
+                            while ($DataRows = mysqli_fetch_array($Result)) {
+                        ?>
+                                <!--col-->
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="blog-card border-radius-10 overflow-hidden text-center">
+                                        <img src="<?php echo $DataRows['image']; ?>" alt="Image not found" class="border-radius-10 mb-30 hover-up">
+                                        <h4 class="fw-500 mb-0"><?php echo $DataRows['name']; ?></h4>
+                                        <p class="fw-400 text-brand mb-10"><?php echo $DataRows['designation']; ?></p>
+                                        <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0 animated">
+                                            <a href="<?php echo $DataRows['facebook']; ?>"><img src="assets/imgs/theme/icons/icon-facebook.svg" alt="Icon not fount"></a>
+                                            <a href="<?php echo $DataRows['twitter']; ?>"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt=""></a>
+                                            <a href="<?php echo $DataRows['insta']; ?>"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt=""></a>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <!--col-->
-                        <div class="col-lg-3 col-md-6">
-                            <div class="blog-card border-radius-10 overflow-hidden text-center">
-                                <img src="assets/imgs/page/avatar-2.jpg" alt="" class="border-radius-10 mb-30 hover-up">
-                                <h4 class="fw-500 mb-0">Dilan Specter</h4>
-                                <p class="fw-400 text-brand mb-10">Head Engineer</p>
-                                <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0 animated">
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-facebook.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest.svg" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--col-->
-                        <div class="col-lg-3 col-md-6">
-                            <div class="blog-card border-radius-10 overflow-hidden text-center">
-                                <img src="assets/imgs/page/avatar-3.jpg" alt="" class="border-radius-10 mb-30 hover-up">
-                                <h4 class="fw-500 mb-0">Tomas Baker</h4>
-                                <p class="fw-400 text-brand mb-10">Senior Planner</p>
-                                <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0 animated">
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-facebook.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest.svg" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--col-->
-                        <div class="col-lg-3 col-md-6">
-                            <div class="blog-card border-radius-10 overflow-hidden text-center">
-                                <img src="assets/imgs/page/avatar-4.jpg" alt="" class="border-radius-10 mb-30 hover-up">
-                                <h4 class="fw-500 mb-0">Norton Mendos</h4>
-                                <p class="fw-400 text-brand mb-10">Project Manager</p>
-                                <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0 animated">
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-facebook.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt=""></a>
-                                    <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest.svg" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--col-->
+                                <!--col-->
+                        <?php
+                                $count++;
+                                if ($count == 4) break;
+                            }
+                        } else {
+                            echo "No Result Found";
+                        }
+                        ?>
                     </div>
                 </div>
             </div>
@@ -136,21 +112,23 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 text-center mb-md-0 mb-4">
-                        <img class="btn-shadow-brand hover-up border-radius-10 bg-brand-muted wow fadeIn animated" src="assets/imgs/page/company-1.jpg" alt="">
-                        <h4 class="mt-30 mb-15 wow fadeIn animated">New York, USA</h4>
-                        <p class="text-grey-3 wow fadeIn animated">27 Division St, New York<br>NY 10002, USA</p>
-                    </div>
-                    <div class="col-md-4 text-center mb-md-0 mb-4">
-                        <img class="btn-shadow-brand hover-up border-radius-10 bg-brand-muted wow fadeIn animated" src="assets/imgs/page/company-2.jpg" alt="">
-                        <h4 class="mt-30 mb-15 wow fadeIn animated">Paris, France</h4>
-                        <p class="text-grey-3 wow fadeIn animated">22 Rue des Carmes<br> 75005 Paris</p>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <img class="btn-shadow-brand hover-up border-radius-10 bg-brand-muted wow fadeIn animated" src="assets/imgs/page/company-3.jpg" alt="">
-                        <h4 class="mt-30 mb-15 wow fadeIn animated">Jakarta, Indonesia</h4>
-                        <p class="text-grey-3 wow fadeIn animated">2476 Raya Yogyakarta,<br>89090 Indonesia</p>
-                    </div>
+                    <?php
+                    $Query = "SELECT * FROM mainbranches WHERE status = 1";
+                    $Result = mysqli_query($conn, $Query);
+                    if ($Result->num_rows > 0) {
+                        while ($DataRows = mysqli_fetch_array($Result)) {
+                    ?>
+                            <div class="col-md-4 text-center mb-md-0 mb-4">
+                                <img class="btn-shadow-brand hover-up border-radius-10 bg-brand-muted wow fadeIn animated" src="<?php echo $DataRows['image']; ?>" alt="Image not found">
+                                <h4 class="mt-30 mb-15 wow fadeIn animated"><?php echo $DataRows['address']; ?></h4>
+                                <p class="text-grey-3 wow fadeIn animated"><?php echo $DataRows['street']; ?><br><?php echo $DataRows['postalcode']; ?></p>
+                            </div>
+                    <?php
+                        }
+                    } else {
+                        echo "No Result Found";
+                    }
+                    ?>
                 </div>
             </div>
         </section>
@@ -164,95 +142,40 @@
                     </div>
                 </div>
                 <div class="row align-items-center">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="hero-card box-shadow-outer-6 wow fadeIn animated mb-30 hover-up d-flex">
-                            <div class="hero-card-icon icon-left-2 hover-up ">
-                                <img class="btn-shadow-brand hover-up border-radius-5 bg-brand-muted" src="assets/imgs/page/avatar-1.jpg" alt="">
+                    <?php
+                    $Query = "SELECT * FROM personas WHERE status = 1";
+                    $Result = mysqli_query($conn, $Query);
+                    if ($Result->num_rows > 0) {
+                        $count = 0;
+                        while ($DataRows = mysqli_fetch_array($Result)) {
+                    ?>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="hero-card box-shadow-outer-6 wow fadeIn animated mb-30 hover-up d-flex">
+                                    <div class="hero-card-icon icon-left-2 hover-up ">
+                                        <img class="btn-shadow-brand hover-up border-radius-5 bg-brand-muted" src="<?php echo $DataRows['image']; ?>" alt="Image not found.">
+                                    </div>
+                                    <div class="pl-30">
+                                        <h5 class="mb-5 fw-500">
+                                            <?php echo $DataRows['name']; ?>
+                                        </h5>
+                                        <p class="font-sm text-grey-5"><?php echo $DataRows['organization']; ?></p>
+                                        <p class="text-grey-3">"<?php echo $DataRows['message']; ?>"</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="pl-30">
-                                <h5 class="mb-5 fw-500">
-                                    J. Bezos
-                                </h5>
-                                <p class="font-sm text-grey-5">Adobe Jsc</p>
-                                <p class="text-grey-3">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt voluptatum dicta reprehenderit accusamus voluptatibus voluptas."</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="hero-card box-shadow-outer-6 wow fadeIn animated mb-30 hover-up d-flex">
-                            <div class="hero-card-icon icon-left-2 hover-up ">
-                                <img class="btn-shadow-brand hover-up border-radius-5 bg-brand-muted" src="assets/imgs/page/avatar-3.jpg" alt="">
-                            </div>
-                            <div class="pl-30">
-                                <h5 class="mb-5 fw-500">
-                                    B.Gates
-                                </h5>
-                                <p class="font-sm text-grey-5">Adobe Jsc</p>
-                                <p class="text-grey-3">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt voluptatum dicta reprehenderit accusamus voluptatibus voluptas."</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="hero-card box-shadow-outer-6 wow fadeIn animated mb-30 hover-up d-flex">
-                            <div class="hero-card-icon icon-left-2 hover-up ">
-                                <img class="btn-shadow-brand hover-up border-radius-5 bg-brand-muted" src="assets/imgs/page/avatar-2.jpg" alt="">
-                            </div>
-                            <div class="pl-30">
-                                <h5 class="mb-5 fw-500">
-                                    B. Meyers
-                                </h5>
-                                <p class="font-sm text-grey-5">Adobe Jsc</p>
-                                <p class="text-grey-3">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt voluptatum dicta reprehenderit accusamus voluptatibus voluptas."</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="hero-card box-shadow-outer-6 wow fadeIn animated mb-30 hover-up d-flex">
-                            <div class="hero-card-icon icon-left-2 hover-up ">
-                                <img class="btn-shadow-brand hover-up border-radius-5 bg-brand-muted" src="assets/imgs/page/avatar-4.jpg" alt="">
-                            </div>
-                            <div class="pl-30">
-                                <h5 class="mb-5 fw-500">
-                                    J. Bezos
-                                </h5>
-                                <p class="font-sm text-grey-5">Adobe Jsc</p>
-                                <p class="text-grey-3">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt voluptatum dicta reprehenderit accusamus voluptatibus voluptas."</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="hero-card box-shadow-outer-6 wow fadeIn animated mb-30 hover-up d-flex">
-                            <div class="hero-card-icon icon-left-2 hover-up ">
-                                <img class="btn-shadow-brand hover-up border-radius-5 bg-brand-muted" src="assets/imgs/page/avatar-5.jpg" alt="">
-                            </div>
-                            <div class="pl-30">
-                                <h5 class="mb-5 fw-500">
-                                    B.Gates
-                                </h5>
-                                <p class="font-sm text-grey-5">Adobe Jsc</p>
-                                <p class="text-grey-3">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt voluptatum dicta reprehenderit accusamus voluptatibus voluptas."</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="hero-card box-shadow-outer-6 wow fadeIn animated mb-30 hover-up d-flex">
-                            <div class="hero-card-icon icon-left-2 hover-up ">
-                                <img class="btn-shadow-brand hover-up border-radius-5 bg-brand-muted" src="assets/imgs/page/avatar-1.jpg" alt="">
-                            </div>
-                            <div class="pl-30">
-                                <h5 class="mb-5 fw-500">
-                                    B. Meyers
-                                </h5>
-                                <p class="font-sm text-grey-5">Adobe Jsc</p>
-                                <p class="text-grey-3">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nesciunt voluptatum dicta reprehenderit accusamus voluptatibus voluptas."</p>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                            $count++;
+                            if ($count == 6) break;
+                        }
+                    } else {
+                        echo "No Result Found";
+                    }
+                    ?>
                 </div>
                 <div class="row mt-30">
                     <div class="col-12 text-center">
                         <p class="wow fadeIn animated">
-                            <a class="btn btn-brand text-white btn-shadow-brand hover-up btn-lg">View More</a>
+                            <a class="btn btn-brand text-white btn-shadow-brand hover-up btn-lg" href="page-personas.php">View More</a>
                         </p>
                     </div>
                 </div>

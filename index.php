@@ -1477,7 +1477,7 @@ include("helpers/variables.php");
         </div>
       </div>
     </section>
-    <section class="deals section-padding">
+    <!-- <section class="deals section-padding">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 deal-co">
@@ -1498,7 +1498,7 @@ include("helpers/variables.php");
               </div>
               <div class="deal-bottom">
                 <p>Hurry Up! Offer End In:</p>
-                <div class="deals-countdown" data-countdown="2025/03/25 00:00:00"></div>
+                <div class="deals-countdown" data-countdown="2025/03/25 12:10:00"></div>
                 <a href="shop-grid-left.php" class="btn hover-up">Shop Now <i class="fi-rs-arrow-right"></i></a>
               </div>
             </div>
@@ -1528,7 +1528,7 @@ include("helpers/variables.php");
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="section-padding">
       <div class="container">
         <h3 class="section-title mb-20 wow fadeIn animated">

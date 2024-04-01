@@ -73,11 +73,7 @@
                 <option>All Categories</option>
                 <option>Women's</option>
                 <option>Men's</option>
-                <option>Cellphones</option>
-                <option>Computer</option>
-                <option>Electronics</option>
                 <option>Accessories</option>
-                <option>Home & Garden</option>
                 <option>Luggage</option>
                 <option>Shoes</option>
                 <option>Mother & Kids</option>
@@ -330,109 +326,9 @@
                     </ul>
                   </div>
                 </li>
-                <li class="has-children">
-                  <a href="shop-grid-left.php"><i class="evara-font-smartphone"></i> Cellphones</a>
-                  <div class="dropdown-menu">
-                    <ul class="mega-menu d-lg-flex">
-                      <li class="mega-menu-col col-lg-7">
-                        <ul class="d-lg-flex">
-                          <li class="mega-menu-col col-lg-6">
-                            <ul>
-                              <li>
-                                <span class="submenu-title">Hot & Trending</span>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Cellphones</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">iPhones</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Refurbished Phones</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Mobile Phone</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Mobile Phone Parts</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Phone Bags & Cases</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Communication Equipments</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Walkie Talkie</a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li class="mega-menu-col col-lg-6">
-                            <ul>
-                              <li>
-                                <span class="submenu-title">Accessories</span>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Screen Protectors</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Wire Chargers</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Wireless Chargers</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Car Chargers</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Power Bank</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Armbands</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Dust Plug</a>
-                              </li>
-                              <li>
-                                <a class="dropdown-item nav-link nav_item" href="#">Signal Boosters</a>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li class="mega-menu-col col-lg-5">
-                        <div class="header-banner2">
-                          <img src="assets/imgs/banner/menu-banner-5.jpg" alt="menu_banner1" />
-                          <div class="banne_info">
-                            <h6>10% Off</h6>
-                            <h4>New Arrival</h4>
-                            <a href="#">Shop now</a>
-                          </div>
-                        </div>
-                        <div class="header-banner2">
-                          <img src="assets/imgs/banner/menu-banner-6.jpg" alt="menu_banner2" />
-                          <div class="banne_info">
-                            <h6>15% Off</h6>
-                            <h4>Hot Deals</h4>
-                            <a href="#">Shop now</a>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </li>
-                <li>
-                  <a href="shop-grid-left.php"><i class="evara-font-desktop"></i>Computer & Office</a>
-                </li>
-                <li>
-                  <a href="shop-grid-left.php"><i class="evara-font-cpu"></i>Consumer Electronics</a>
-                </li>
                 <li>
                   <a href="shop-grid-left.php"><i class="evara-font-diamond"></i>Jewelry &
                     Accessories</a>
-                </li>
-                <li>
-                  <a href="shop-grid-left.php"><i class="evara-font-home"></i>Home & Garden</a>
                 </li>
                 <li>
                   <a href="shop-grid-left.php"><i class="evara-font-high-heels"></i>Shoes</a>
@@ -450,14 +346,6 @@
                     </li>
                     <li>
                       <a href="shop-grid-left.php"><i class="evara-font-cpu"></i>Bags and Shoes</a>
-                    </li>
-                    <li>
-                      <a href="shop-grid-left.php"><i class="evara-font-diamond"></i>Consumer
-                        Electronics</a>
-                    </li>
-                    <li>
-                      <a href="shop-grid-left.php"><i class="evara-font-home"></i>Automobiles &
-                        Motorcycles</a>
                     </li>
                   </ul>
                 </li>
