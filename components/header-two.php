@@ -53,51 +53,74 @@
                             <li><a href="shop-grid-left.php">Shop Now</i></a>
 
                             </li>
-                            <li class="position-static"><a href="#">Mega Menu <i class="fi-rs-angle-down"></i></a>
+                            <li class="position-static">
+                                <a href="#">Mega menu <i class="fi-rs-angle-down"></i></a>
                                 <ul class="mega-menu">
                                     <li class="sub-mega-menu sub-mega-menu-width-22">
                                         <a class="menu-title" href="#">Women's Fashion</a>
                                         <ul>
-                                            <li><a href="shop-product-right.php">Dresses</a></li>
-                                            <li><a href="shop-product-right.php">Blouses & Shirts</a></li>
-                                            <li><a href="shop-product-right.php">Hoodies & Sweatshirts</a></li>
-                                            <li><a href="shop-product-right.php">Wedding Dresses</a></li>
-                                            <li><a href="shop-product-right.php">Prom Dresses</a></li>
-                                            <li><a href="shop-product-right.php">Cosplay Costumes</a></li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Dresses</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Hoodies & Sweatshirts</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Prom Dresses</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="sub-mega-menu sub-mega-menu-width-22">
                                         <a class="menu-title" href="#">Men's Fashion</a>
                                         <ul>
-                                            <li><a href="shop-product-right.php">Jackets</a></li>
-                                            <li><a href="shop-product-right.php">Casual Faux Leather</a></li>
-                                            <li><a href="shop-product-right.php">Genuine Leather</a></li>
-                                            <li><a href="shop-product-right.php">Casual Pants</a></li>
-                                            <li><a href="shop-product-right.php">Sweatpants</a></li>
-                                            <li><a href="shop-product-right.php">Harem Pants</a></li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Jackets</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Casual Faux Leather</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Genuine Leather</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Casual Pants</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Sweatpants</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="sub-mega-menu sub-mega-menu-width-22">
-                                        <a class="menu-title" href="#">Technology</a>
+                                        <a class="menu-title" href="#">Shoes & Bags</a>
                                         <ul>
-                                            <li><a href="shop-product-right.php">Gaming Laptops</a></li>
-                                            <li><a href="shop-product-right.php">Ultraslim Laptops</a></li>
-                                            <li><a href="shop-product-right.php">Tablets</a></li>
-                                            <li><a href="shop-product-right.php">Laptop Accessories</a></li>
-                                            <li><a href="shop-product-right.php">Tablet Accessories</a></li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Casual Faux Leather</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Genuine Leather</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Casual Bags</a>
+                                            </li>
+                                            <li>
+                                                <a href="shop-grid-left.php">Sweat Bags</a>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li class="sub-mega-menu sub-mega-menu-width-34">
                                         <div class="menu-banner-wrap">
-                                            <a href="shop-product-right.php"><img src="assets/imgs/banner/menu-banner.jpg" alt="Evara"></a>
+                                            <a href="shop-grid-left.php"><img src="assets/imgs/banner/menu-banner.jpg" alt="Evara" /></a>
                                             <div class="menu-banner-content">
                                                 <h4>Hot deals</h4>
-                                                <h3>Don't miss<br> Trending</h3>
+                                                <h3>
+                                                    Don't miss<br />
+                                                    Trending
+                                                </h3>
                                                 <div class="menu-banner-price">
                                                     <span class="new-price text-success">Save to 50%</span>
                                                 </div>
                                                 <div class="menu-banner-btn">
-                                                    <a href="shop-product-right.php">Shop now</a>
+                                                    <a href="shop-grid-left.php">Shop now</a>
                                                 </div>
                                             </div>
                                             <div class="menu-banner-discount">

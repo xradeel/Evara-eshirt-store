@@ -24,7 +24,6 @@
 </head>
 
 <body>
-    <!-- Quick view -->
     <!-- link headers -->
     <?php
     require("components/header-two.php");
@@ -51,39 +50,8 @@
                         <p class="w-50 m-auto mb-50 wow fadeIn animated">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quam eius placeat, a quidem mollitia at accusantium reprehenderit pariatur provident nam ratione incidunt magnam sequi.</p>
                         <p class="wow fadeIn animated">
                             <a class="btn btn-brand btn-lg font-weight-bold text-white border-radius-5 btn-shadow-brand hover-up" href="page-about.php">About Us</a>
-                            <a class="btn btn-outline btn-lg btn-brand-outline font-weight-bold text-brand bg-white text-hover-white ml-15 border-radius-5 btn-shadow-brand hover-up">Support Center</a>
+                            <a class="btn btn-outline btn-lg btn-brand-outline font-weight-bold text-brand bg-white text-hover-white ml-15 border-radius-5 btn-shadow-brand hover-up" href="page-404.php">Support Center</a>
                         </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-border pt-50 pb-50">
-            <div class="container">
-                <div id='map-panes' class="leaflet-map mb-50"></div>
-                <div class="row">
-                    <div class="col-md-4 mb-4 mb-md-0">
-                        <h4 class="mb-15 text-brand">Office</h4>
-                        205 North Michigan Avenue, Suite 810<br>
-                        Chicago, 60601, USA<br>
-                        <abbr title="Phone">Phone:</abbr> (123) 456-7890<br>
-                        <abbr title="Email">Email: </abbr><a href="http://wp.alithemes.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6f0c00011b0e0c1b2f2a190e1d0e410c0002">[email&#160;protected]</a><br>
-                        <a class="btn btn-outline btn-sm btn-brand-outline font-weight-bold text-brand bg-white text-hover-white mt-20 border-radius-5 btn-shadow-brand hover-up"><i class="fi-rs-marker mr-10"></i>View map</a>
-                    </div>
-                    <div class="col-md-4 mb-4 mb-md-0">
-                        <h4 class="mb-15 text-brand">Studio</h4>
-                        205 North Michigan Avenue, Suite 810<br>
-                        Chicago, 60601, USA<br>
-                        <abbr title="Phone">Phone:</abbr> (123) 456-7890<br>
-                        <abbr title="Email">Email: </abbr><a href="http://wp.alithemes.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="b5d6dadbc1d4d6c1f5f0c3d4c7d49bd6dad8">[email&#160;protected]</a><br>
-                        <a class="btn btn-outline btn-sm btn-brand-outline font-weight-bold text-brand bg-white text-hover-white mt-20 border-radius-5 btn-shadow-brand hover-up"><i class="fi-rs-marker mr-10"></i>View map</a>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="mb-15 text-brand">Shop</h4>
-                        205 North Michigan Avenue, Suite 810<br>
-                        Chicago, 60601, USA<br>
-                        <abbr title="Phone">Phone:</abbr> (123) 456-7890<br>
-                        <abbr title="Email">Email: </abbr><a href="http://wp.alithemes.com/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="294a46475d484a5d696c5f485b48074a4644">[email&#160;protected]</a><br>
-                        <a class="btn btn-outline btn-sm btn-brand-outline font-weight-bold text-brand bg-white text-hover-white mt-20 border-radius-5 btn-shadow-brand hover-up"> <i class="fi-rs-marker mr-10"></i> View map</a>
                     </div>
                 </div>
             </div>

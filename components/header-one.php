@@ -375,19 +375,10 @@
                           <a href="shop-grid-left.php">Dresses</a>
                         </li>
                         <li>
-                          <a href="shop-grid-left.php">Blouses & Shirts</a>
-                        </li>
-                        <li>
                           <a href="shop-grid-left.php">Hoodies & Sweatshirts</a>
                         </li>
                         <li>
-                          <a href="shop-grid-left.php">Wedding Dresses</a>
-                        </li>
-                        <li>
                           <a href="shop-grid-left.php">Prom Dresses</a>
-                        </li>
-                        <li>
-                          <a href="shop-grid-left.php">Cosplay Costumes</a>
                         </li>
                       </ul>
                     </li>
@@ -409,28 +400,22 @@
                         <li>
                           <a href="shop-grid-left.php">Sweatpants</a>
                         </li>
-                        <li>
-                          <a href="shop-grid-left.php">Harem Pants</a>
-                        </li>
                       </ul>
                     </li>
                     <li class="sub-mega-menu sub-mega-menu-width-22">
-                      <a class="menu-title" href="#">Technology</a>
+                      <a class="menu-title" href="#">Shoes & Bags</a>
                       <ul>
                         <li>
-                          <a href="shop-grid-left.php">Gaming Laptops</a>
+                          <a href="shop-grid-left.php">Casual Faux Leather</a>
                         </li>
                         <li>
-                          <a href="shop-grid-left.php">Ultraslim Laptops</a>
+                          <a href="shop-grid-left.php">Genuine Leather</a>
                         </li>
                         <li>
-                          <a href="shop-grid-left.php">Tablets</a>
+                          <a href="shop-grid-left.php">Casual Bags</a>
                         </li>
                         <li>
-                          <a href="shop-grid-left.php">Laptop Accessories</a>
-                        </li>
-                        <li>
-                          <a href="shop-grid-left.php">Tablet Accessories</a>
+                          <a href="shop-grid-left.php">Sweat Bags</a>
                         </li>
                       </ul>
                     </li>
