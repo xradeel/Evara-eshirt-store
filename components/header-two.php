@@ -32,7 +32,7 @@
                                     <li><a href="#"><img src="assets/imgs/theme/flag-ru.png" alt="">Pусский</a></li>
                                 </ul>
                             </li>
-                            <li><i class="fi-rs-user"></i><a href="page-login-register.php">Log In / Sign Up</a></li>
+                            <li><i class="fi-rs-user"></i><a href="page-register.php">Log In / Sign Up</a></li>
                         </ul>
                     </div>
                 </div>
@@ -52,86 +52,6 @@
                             </li>
                             <li><a href="shop-grid-left.php">Shop Now</i></a>
 
-                            </li>
-                            <li class="position-static">
-                                <a href="#">Mega menu <i class="fi-rs-angle-down"></i></a>
-                                <ul class="mega-menu">
-                                    <li class="sub-mega-menu sub-mega-menu-width-22">
-                                        <a class="menu-title" href="#">Women's Fashion</a>
-                                        <ul>
-                                            <li>
-                                                <a href="shop-grid-left.php">Dresses</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-grid-left.php">Hoodies & Sweatshirts</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-grid-left.php">Prom Dresses</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-mega-menu sub-mega-menu-width-22">
-                                        <a class="menu-title" href="#">Men's Fashion</a>
-                                        <ul>
-                                            <li>
-                                                <a href="shop-grid-left.php">Jackets</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-grid-left.php">Casual Faux Leather</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-grid-left.php">Genuine Leather</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-grid-left.php">Casual Pants</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-grid-left.php">Sweatpants</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-mega-menu sub-mega-menu-width-22">
-                                        <a class="menu-title" href="#">Shoes & Bags</a>
-                                        <ul>
-                                            <li>
-                                                <a href="shop-grid-left.php">Casual Faux Leather</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-grid-left.php">Genuine Leather</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-grid-left.php">Casual Bags</a>
-                                            </li>
-                                            <li>
-                                                <a href="shop-grid-left.php">Sweat Bags</a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="sub-mega-menu sub-mega-menu-width-34">
-                                        <div class="menu-banner-wrap">
-                                            <a href="shop-grid-left.php"><img src="assets/imgs/banner/menu-banner.jpg" alt="Evara" /></a>
-                                            <div class="menu-banner-content">
-                                                <h4>Hot deals</h4>
-                                                <h3>
-                                                    Don't miss<br />
-                                                    Trending
-                                                </h3>
-                                                <div class="menu-banner-price">
-                                                    <span class="new-price text-success">Save to 50%</span>
-                                                </div>
-                                                <div class="menu-banner-btn">
-                                                    <a href="shop-grid-left.php">Shop now</a>
-                                                </div>
-                                            </div>
-                                            <div class="menu-banner-discount">
-                                                <h3>
-                                                    <span>35%</span>
-                                                    off
-                                                </h3>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
                             </li>
                             <li><a href="blog-category-grid.php">Our Blog</a>
 

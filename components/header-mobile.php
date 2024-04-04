@@ -101,7 +101,7 @@
                                 <li><a href="page-about.php">About Us</a></li>
                                 <li><a href="page-account.php">My Account</a></li>
                                 <li>
-                                    <a href="page-login-register.php">login/register</a>
+                                    <a href="page-register.php">login/register</a>
                                 </li>
                                 <li>
                                     <a href="page-purchase-guide.php">Purchase Guide</a>
@@ -126,7 +126,7 @@
                     <a href="page-contact.php"> Our location </a>
                 </div>
                 <div class="single-mobile-header-info">
-                    <a href="page-login-register.php">Log In / Sign Up </a>
+                    <a href="page-register.php">Log In / Sign Up </a>
                 </div>
                 <div class="single-mobile-header-info">
                     <a href="#">(+01) - 2345 - 6789 </a>
