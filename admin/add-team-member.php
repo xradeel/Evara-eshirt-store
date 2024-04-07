@@ -59,6 +59,10 @@
                                     <label for="twitter" class="form-label">X Bio</label>
                                     <input type="text" placeholder="X bio link" class="form-control" id="twitter" name="twitter">
                                 </div>
+                                <!-- <label class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" value="1" name="active_member">
+                                    <span class="form-check-label"> Active </span>
+                                </label> -->
                                 <input class="btn btn-md rounded font-sm hover-up" type="submit" value="Add Member">
                             </div>
                         </div> <!-- card end// -->

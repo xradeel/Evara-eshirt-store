@@ -63,7 +63,7 @@
                     <span class="text">More +</span>
                 </a>
                 <div class="submenu">
-                    <a href="add-team-member.php">Add Team Member</a>
+                    <a href="team-members-list.php">Team Member List</a>
                     <a href="page-categories.php">Add Persona</a>
                 </div>
             </li>
