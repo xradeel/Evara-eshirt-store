@@ -79,7 +79,7 @@ include("helpers/variables.php");
                                 <!--col-->
                                 <div class="col-lg-3 col-md-6">
                                     <div class="blog-card border-radius-10 overflow-hidden text-center">
-                                        <img src="<?php echo $DataRows['image']; ?>" alt="Image not found" class="border-radius-10 mb-30 hover-up">
+                                        <img src="<?php echo "uploads/teammembers/" . $DataRows['image']; ?>" alt="Image not found" class="border-radius-10 mb-30 hover-up">
                                         <h4 class="fw-500 mb-0"><?php echo $DataRows['name']; ?></h4>
                                         <p class="fw-400 text-brand mb-10"><?php echo $DataRows['designation']; ?></p>
                                         <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0 animated">
