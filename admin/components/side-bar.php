@@ -20,7 +20,6 @@
                 </a>
                 <div class="submenu">
                     <a href="page-products-list.php">Product List</a>
-                    <a href="page-products-grid-2.php">Product grid</a>
                     <a href="page-categories.php">Categories</a>
                 </div>
             </li>
@@ -35,17 +34,6 @@
                     <a href="page-invoice.php">Invoice</a>
                 </div>
             </li>
-            <!-- seller section, I will review this section letter because I think it is going to be hard for me
-            if i add this section -->
-            <!-- <li class="menu-item has-submenu">
-                <a class="menu-link" href="page-sellers-cards.php"> <i class="icon material-icons md-store"></i>
-                    <span class="text">Sellers</span>
-                </a>
-                <div class="submenu">
-                    <a href="page-sellers-list.php">Sellers</a>
-                    <a href="page-seller-detail.php">Seller profile</a>
-                </div>
-            </li> -->
             <li class="menu-item">
                 <a class="menu-link" href="page-form-product-1.php"> <i class="icon material-icons md-add_box"></i>
                     <span class="text">Add product</span>
@@ -68,6 +56,15 @@
                     <a href="page-account-login.php">User login</a>
                     <a href="page-account-register.php">User registration</a>
                     <a href="page-error-404.php">Error 404</a>
+                </div>
+            </li>
+            <li class="menu-item has-submenu">
+                <a class="menu-link" href="page-products-list.php"> <i class="icon material-icons md-shopping_bag"></i>
+                    <span class="text">More +</span>
+                </a>
+                <div class="submenu">
+                    <a href="add-team-member.php">Add Team Member</a>
+                    <a href="page-categories.php">Add Persona</a>
                 </div>
             </li>
             <li class="menu-item">

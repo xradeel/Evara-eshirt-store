@@ -191,7 +191,7 @@
                                     </tbody>
                                 </table>
                             </div> <!-- table-responsive// -->
-                            <a class="btn btn-primary" href="page-orders-tracking.html">View Order Tracking</a>
+                            <a class="btn btn-primary" href="page-orders-tracking.php">View Order Tracking</a>
                         </div> <!-- col// -->
                         <div class="col-lg-1"></div>
                         <div class="col-lg-4">

@@ -22,3 +22,4 @@
 <!-- Template  JS -->
 <script src="assets/js/maind134.js?v=3.4"></script>
 <script src="assets/js/shopd134.js?v=3.4"></script>
+<script src="assets/js/custom.js"></script>
