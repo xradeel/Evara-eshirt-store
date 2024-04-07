@@ -73,7 +73,7 @@
                                         <a href="#" class="btn btn-sm font-sm rounded btn-brand mr-50">
                                             <i class="material-icons md-edit"></i> Edit
                                         </a>
-                                        <a href="#" class="btn btn-sm font-sm btn-light rounded delete-member" data-member-id="<?php echo $DataRows['id']; ?>">
+                                        <a class="btn btn-sm font-sm btn-light rounded delete-member" data-member-id="<?php echo $DataRows['id']; ?>">
                                             <i class="material-icons md-delete_forever"></i> Delete
                                         </a>
 
