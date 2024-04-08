@@ -5,27 +5,22 @@ include_once '../helpers/config.php';
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
-    $member_name = $_POST['member_name'];
-    $designation = $_POST['designation'];
-    $facebook = $_POST['facebook'];
-    $instagram = $_POST['instagram'];
-    $twitter = $_POST['twitter'];
+    $name = $_POST['name'];
+    $organization = $_POST['organization'];
+    $description = $_POST['description'];
 
     // Check if image is uploaded
     if (isset($_FILES['image']) && $_FILES['image']['error'] === UPLOAD_ERR_OK) {
         // Handle image upload
         $image = $_FILES['image']['name'];
         $temp_image = $_FILES['image']['tmp_name'];
-        $upload_dir = "../../uploads/teammembers/";
+        $upload_dir = "../../uploads/client-persona/";
         $target_image = $upload_dir . basename($image);
 
         // Move uploaded image to the specified directory
         if (move_uploaded_file($temp_image, $target_image)) {
-            // Insert member details into the database
-            // $sql = "INSERT INTO teammembers (member_name, designation, facebook, instagram, twitter, image) VALUES ('$member_name', '$designation', '$facebook', '$instagram', '$twitter', '$image')";
 
-
-            $MySqlCommand = "SELECT MAX(id) FROM teammembers";
+            $MySqlCommand = "SELECT MAX(id) FROM personas";
             $Result = mysqli_query($conn, $MySqlCommand);
             $MaxID = mysqli_fetch_array($Result);
             $UserID = $MaxID['0'];
@@ -33,11 +28,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $Status = 1;
 
             // Insert data into database
-            $sql = "INSERT INTO teammembers (id,name, designation, facebook, insta, twitter, image, status) VALUES ($UserID, '$member_name', '$designation', '$facebook', '$instagram', '$twitter', '$image', '$Status')";
+            $sql = "INSERT INTO personas (id, name, organization, message, image, status) VALUES ('$UserID', '$name', '$organization', '$description', '$image', '$Status')";
             if ($conn->query($sql) === TRUE) {
-                echo 'New member added successfully. <a href="../add-team-member.php"> Add another member</a>';
-
-                // echo  "<script>window.location='../add-team-member.php'</script>";
+                echo "New member added successfully.";
+                // echo  "<script>window.location='add-team-member.php'</script>";
             } else {
                 echo "Error: " . $sql . "<br>" . $conn->error;
             }

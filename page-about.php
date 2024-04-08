@@ -119,7 +119,7 @@ include("helpers/variables.php");
                         while ($DataRows = mysqli_fetch_array($Result)) {
                     ?>
                             <div class="col-md-4 text-center mb-md-0 mb-4">
-                                <img class="btn-shadow-brand hover-up border-radius-10 bg-brand-muted wow fadeIn animated" src="<?php echo $DataRows['image']; ?>" alt="Image not found">
+                                <img class="btn-shadow-brand hover-up border-radius-10 bg-brand-muted wow fadeIn animated" src="<?php echo  $DataRows['image']; ?>" alt="Image not found">
                                 <h4 class="mt-30 mb-15 wow fadeIn animated"><?php echo $DataRows['address']; ?></h4>
                                 <p class="text-grey-3 wow fadeIn animated"><?php echo $DataRows['street']; ?><br><?php echo $DataRows['postalcode']; ?></p>
                             </div>
@@ -152,7 +152,7 @@ include("helpers/variables.php");
                             <div class="col-md-6 col-lg-4">
                                 <div class="hero-card box-shadow-outer-6 wow fadeIn animated mb-30 hover-up d-flex">
                                     <div class="hero-card-icon icon-left-2 hover-up ">
-                                        <img class="btn-shadow-brand hover-up border-radius-5 bg-brand-muted" src="<?php echo $DataRows['image']; ?>" alt="Image not found.">
+                                        <img class="btn-shadow-brand hover-up border-radius-5 bg-brand-muted" style="width: 70px; height: 70px;" src="<?php echo "uploads/client-persona/" . $DataRows['image']; ?>" alt="Image not found.">
                                     </div>
                                     <div class="pl-30">
                                         <h5 class="mb-5 fw-500">

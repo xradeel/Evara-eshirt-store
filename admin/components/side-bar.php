@@ -64,7 +64,7 @@
                 </a>
                 <div class="submenu">
                     <a href="team-members-list.php">Team Member List</a>
-                    <a href="page-categories.php">Add Persona</a>
+                    <a href="personas-list.php">Persona List</a>
                 </div>
             </li>
             <li class="menu-item">
