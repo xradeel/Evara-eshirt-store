@@ -1,8 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<?php require "scripts/session.php"; ?>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
-
-
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/shop-cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:20:05 GMT -->
 
 <head>
     <meta charset="utf-8">

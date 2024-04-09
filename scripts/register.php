@@ -12,12 +12,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    $TokenKey = str_shuffle($TokenKey);
    $TokenKey = substr($TokenKey, 0, 32);
 
-   $MySqlCommand = "SELECT username FROM users HAVING $username ";
-   if ($MySqlCommand) die('1');
-   $MySqlCommand = "SELECT email FROM users HAVING $emial ";
-   if ($MySqlCommand) die('2');
-   $MySqlCommand = "SELECT MAX(id) FROM users";
+   $MySqlCommand = "SELECT username FROM users WHERE username = '$username' ";
+   $Result = mysqli_query($conn, $MySqlCommand);
+   $userexist = mysqli_fetch_assoc($Result);
+   if (mysqli_num_rows($Result) > 0) die('1');
+   $MySqlCommand = "SELECT email FROM users WHERE email = '$email' ";
+   $Result = mysqli_query($conn, $MySqlCommand);
+   if (mysqli_num_rows($Result) > 0) die('2');
 
+   $MySqlCommand = "SELECT MAX(id) FROM users";
    $Result = mysqli_query($conn, $MySqlCommand);
    $MaxID = mysqli_fetch_array($Result);
    $UserID = $MaxID['0'];
