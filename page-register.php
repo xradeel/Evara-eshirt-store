@@ -34,30 +34,31 @@
                                 <p class="mb-50 font-sm">
                                     Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy
                                 </p>
-                                <form method="post">
+                                <form id="registration-form" method="post">
                                     <div class="form-group">
-                                        <input type="text" required="" name="username" placeholder="Username">
+                                        <input type="text" required="" name="username" id="username" placeholder="Username">
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" required="" name="email" placeholder="Email">
+                                        <input type="email" required="" name="email" id="email" placeholder="Email">
                                     </div>
                                     <div class="form-group">
-                                        <input required="" type="password" name="password" placeholder="Password">
+                                        <input required="" type="password" name="password" id="password" placeholder="Password">
                                     </div>
                                     <div class="form-group">
-                                        <input required="" type="password" name="password" placeholder="Confirm password">
+                                        <input required="" type="password" name="confirm_password" id="confirm_password" placeholder="Confirm password">
                                     </div>
+                                    <p style="color: red; display: none;" id="pass_error">Passwords do not match.</p>
                                     <div class="login_footer form-group">
                                         <div class="chek-form">
                                             <div class="custome-checkbox">
-                                                <input class="form-check-input" type="checkbox" name="checkbox" id="exampleCheckbox12" value="">
-                                                <label class="form-check-label" for="exampleCheckbox12"><span>I agree to terms &amp; Policy.</span></label>
+                                                <input class="form-check-input" type="checkbox" name="agree" id="agree" value="1">
+                                                <label class="form-check-label" for="agree"><span>I agree to terms &amp; Policy.</span></label>
                                             </div>
                                         </div>
-                                        <a href="page-privacy-policy.html"><i class="fi-rs-book-alt mr-5 text-muted"></i>Lean more</a>
+                                        <a href="page-privacy-policy.html"><i class="fi-rs-book-alt mr-5 text-muted"></i>Learn more</a>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-fill-out btn-block hover-up" name="login">Submit &amp; Register</button>
+                                        <button type="submit" id="register" class="btn btn-fill-out btn-block hover-up" name="register">Submit &amp; Register</button>
                                     </div>
                                 </form>
                                 <div class="divider-text-center mt-15 mb-15">
@@ -79,6 +80,7 @@
     <?php require("components/pre-loader.php") ?>
     <!-- Vendor JS-->
     <?php require("components/js-links.php") ?>
+    <script src="assets/js/register.js"></script>
 </body>
 
 

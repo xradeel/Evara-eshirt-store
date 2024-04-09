@@ -31,7 +31,7 @@
                                 <div class="heading_s1">
                                     <h3 class="mb-30">Login</h3>
                                 </div>
-                                <form method="post">
+                                <form id="registerForm">
                                     <div class="form-group">
                                         <input type="text" required="" name="email" placeholder="Your Email">
                                     </div>

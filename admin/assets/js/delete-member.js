@@ -24,7 +24,7 @@ $(document).ready(function () {
         },
         error: function (xhr, status, error) {
           // Handle error response (e.g., display error message)
-          alert("An error occurred while deleting the team member.");
+          alert("An error occurred while deleting the team member.->" + error);
         },
       });
     }
