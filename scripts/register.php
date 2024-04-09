@@ -13,10 +13,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
    $TokenKey = substr($TokenKey, 0, 32);
 
    $MySqlCommand = "SELECT username FROM users HAVING $username ";
-   if ($MySqlCommand) die("User name already exists!");
+   if ($MySqlCommand) die('1');
+   $MySqlCommand = "SELECT email FROM users HAVING $emial ";
+   if ($MySqlCommand) die('2');
    $MySqlCommand = "SELECT MAX(id) FROM users";
-   // echo $MySqlCommand; 
-   // die;
+
    $Result = mysqli_query($conn, $MySqlCommand);
    $MaxID = mysqli_fetch_array($Result);
    $UserID = $MaxID['0'];
@@ -32,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       " VALUES($UserID, '$Reference', '$username', " .
       "  '$email', '$mdpassword', $Status, '$password', '$IP', '$TodayDate' ,'$TokenKey')";
    if (mysqli_query($conn, $Query)) {
-      echo "User registered successfully!";
+      echo "3";
    } else {
       echo "Error: " . mysqli_error($conn);
    }

@@ -55,7 +55,7 @@
                                                 <label class="form-check-label" for="agree"><span>I agree to terms &amp; Policy.</span></label>
                                             </div>
                                         </div>
-                                        <a href="page-privacy-policy.html"><i class="fi-rs-book-alt mr-5 text-muted"></i>Learn more</a>
+                                        <a href="page-privacy-policy.php"><i class="fi-rs-book-alt mr-5 text-muted"></i>Learn more</a>
                                     </div>
                                     <div class="form-group">
                                         <button type="submit" id="register" class="btn btn-fill-out btn-block hover-up" name="register">Submit &amp; Register</button>
