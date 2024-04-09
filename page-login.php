@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 
-
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/page-login-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:17:55 GMT -->
-
 <head>
     <meta charset="utf-8">
     <title>Evara - eCommerce HTML Template</title>
@@ -31,12 +28,12 @@
                                 <div class="heading_s1">
                                     <h3 class="mb-30">Login</h3>
                                 </div>
-                                <form id="registerForm">
+                                <form id="registerForm" action="scripts/login.php" method="post">
                                     <div class="form-group">
-                                        <input type="text" required="" name="email" placeholder="Your Email">
+                                        <input type="email" required="" name="email" placeholder="Your Email">
                                     </div>
                                     <div class="form-group">
-                                        <input required="" type="password" name="password" placeholder="Password">
+                                        <input required type="password" name="password" placeholder="Password">
                                     </div>
                                     <div class="login_footer form-group">
                                         <div class="chek-form">
@@ -48,7 +45,7 @@
                                         <a class="text-muted" href="#">Forgot password?</a>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-fill-out btn-block hover-up" name="login">Log in</button>
+                                        <button type="submit" class="btn btn-fill-out btn-block hover-up" name="submit">Log in</button>
                                     </div>
                                 </form>
                             </div>
